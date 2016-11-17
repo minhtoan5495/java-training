@@ -7,8 +7,8 @@ import javax.persistence.*;
  * 
  */
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@DiscriminatorColumn(name="TYPE", discriminatorType=DiscriminatorType.INTEGER)
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@DiscriminatorColumn(name="TYPE", discriminatorType=DiscriminatorType.INTEGER)
 public class User extends AbstractAuditableEntity {
 	private static final long serialVersionUID = -2175150694352541150L;
 
